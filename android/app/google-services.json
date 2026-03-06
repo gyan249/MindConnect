@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1095828401578",
+    "project_id": "mind-connect-e9c56",
+    "storage_bucket": "mind-connect-e9c56.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095828401578:android:03fb579fa38303cfc2cfd3",
+        "android_client_info": {
+          "package_name": "com.example.mind_connect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIwii8HkJfm-4J8FasRnaYlO19Swv09f4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
