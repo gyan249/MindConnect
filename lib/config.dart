@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
-// ⚠️ PASTE YOUR API KEY HERE
-const String apiKey = "AIzaSyDQzG6GnZSXBug8Vq1_SEg3xdjFtrpvlOE"; 
-const String apiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
+String apiKey = dotenv.env['GEMINI_API_KEY']!;
+const String apiUrl =
+'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
+
 
 // This class DEFINES the colors for the whole app
 class AppColors {
