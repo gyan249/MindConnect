@@ -25,10 +25,10 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await dotenv.load(fileName: ".env");
   await Firebase.initializeApp();
   await themeController.loadTheme();
   await languageController.loadLanguage();
-  await dotenv.load(fileName: ".env");
   runApp(const MindConnectApp());
 }
 

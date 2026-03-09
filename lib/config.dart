@@ -3,7 +3,7 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 String apiKey = dotenv.env['GEMINI_API_KEY']!;
 const String apiUrl =
-'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
+'https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent';
 
 
 // This class DEFINES the colors for the whole app
